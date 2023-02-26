@@ -1,0 +1,30 @@
+package com.recursion;
+
+public class Rbasics3 {
+    public static void main(String[] args) {
+        //write a function that prints Rescursion
+        message();
+    }
+
+    static void message() {
+        System.out.println("Recursion");
+        message1();
+    }
+
+    static void message1() {
+        System.out.println("Recursion");
+        message2();
+    }
+
+    static void message2() {
+        System.out.println("Recursion");
+        message3();
+
+
+    }
+
+    static void message3(){
+        System.out.println("Recursion");
+
+    }
+}
